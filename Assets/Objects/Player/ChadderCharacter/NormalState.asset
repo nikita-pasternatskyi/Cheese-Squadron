@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e606a4843f74336418720c9d0d76cfd1, type: 3}
+  m_Name: NormalState
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Transitions: []
+  StateActions:
+  - rid: 8547991936582287363
+  CanTransitionToSelf: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 8547991936582287363
+      type: {class: ChadderNormalState, ns: Assets.Objects.Player, asm: Assembly-CSharp}
+      data:
+        MoveSpeed: 2
+        JumpHeight: 2.5
+        _jumpBufferTime: 0.15
+        Input: {fileID: 11400000, guid: 933e06422b70f5449bc4691e7e990e80, type: 2}
+        _slideSpeed: 8
+        _slideTime: 0.25
